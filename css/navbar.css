@@ -1,0 +1,88 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Syne+Mono&display=swap');
+*{
+	box-sizing: :border-box;
+	margin: :0;
+	padding: 0;	
+	box-sizing: border-box;
+}
+
+li {
+	font-family: "Syne Mono";
+	font-weight: 400;
+	font-size: 16px;
+	text-decoration: none;
+}
+
+nav{
+	position:fixed;
+	top:0;
+	left:0;
+	width:100%;
+	height:100px;
+	padding:10px 100px;
+	box-sizing:border-box;
+	transition: .3s;
+}
+nav.black{
+	background: rgba(0,0,0,0.8);
+	height:100px;
+	padding:10px 100px;
+
+}
+.topnav{
+	font-family: "Syne Mono";
+	text-decoration: none;
+
+}
+
+nav .topnav{
+	padding: 22px 20px;
+	height: 80px;
+	float:left;
+	font-size:24px;
+	transition:.3s;
+}
+
+nav.black .topnav{
+	color:#fff;
+}
+
+nav ul{
+	list-style: none;
+	float:right;
+	margin:0;
+	padding:0;
+	display:flex;
+}
+nav ul li a {
+	line-height: 80px;
+	color: #151515;
+	padding:12px 30px;
+	text-decoration: none;
+	text-transform: uppercase;
+	transition: .3s;
+}
+
+nav.black ul li a {
+	color: #fff;
+}
+nav ul li a :focus{
+	outline:none;
+}
+
+.updates{
+	width: 80%;
+	height:2000px;
+	background:grey;
+	margin: 20px auto;
+}
+
+.logo {
+	display: block;
+  	margin-left: auto;
+  	margin-right: auto;
+  	width: 50%;
+  	margin-top: 150px;
+  	margin-bottom: 60px;
+}
