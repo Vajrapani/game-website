@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Patua+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Special+Elite&display=swap');
+
+p {
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.creation h1{
+	display: flex;
+ 	margin: auto;
+ 	justify-content: center;
+ 	margin-top:100px;
+	margin-bottom: 50px;
+	font-family: "Patua One";
+	font-size: 72px;
+}
+.creation p{
+	font-size: 36px;
+	font-family: "Shadows Into Light"; 
+	font-variant-caps: small-caps;
+	font-weight: bold; 
+}
+
+.magic p{
+	font-size: 36px;
+	font-family: "Shadows Into Light"; 
+	font-variant-caps: small-caps;
+	font-weight: bold; 
+}
+#logoimg{
+	height:400px;
+	display: flex;
+ 	margin: auto;
+ 	justify-content: center;
+ 	margin-top:100px;
+}
+#creations{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+    margin: 0 auto;
+    text-align: center;
+}
+#firstline{
+	height:3px;
+	margin-top: 100px;
+	margin-bottom: 100px;
+	border-width: 0;
+	color: gray;
+	background-color: black;
+	width:50%
+}
+
+#definition{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.def h1{
+	margin-bottom:2px;
+	font-family: "Special Elite";
+	font-variant-caps: all-small-caps;
+	font-size: 72px;
+}
+.def p{
+	font-family: "Special Elite";
+	font-size: 32px;
+}
+
+#secondline{
+	border: 0;
+	margin: 1.35em auto;
+	max-width: 30%;
+	background-position: 50%;
+	box-sizing: border-box;
+	height: 1px;
+	color: red;
+	background-image: linear-gradient(90deg,rgba(0, 0,0, 0), rgba(0, 0,0, 0.75), rgba(0, 0,0, 0));
+}
+#thirdline{
+	height:3px;
+	margin-top: 100px;
+	margin-bottom: 100px;
+	border-width: 0;
+	color: gray;
+	background-color: black;
+	width:50%
+}
+
+.features h1{
+	margin-bottom:2px;
+	font-family: "Special Elite";
+	font-variant-caps: all-small-caps;
+	font-size: 72px;
+	display: flex;
+ 	margin: auto;
+ 	justify-content: center;
+}
+.features p{
+	font-family: "Special Elite";
+	font-size: 32px;
+	margin-bottom: 100px;
+}
+
+#fourthline{
+	border: 0;
+	margin: 1.35em auto;
+	max-width: 30%;
+	background-position: 50%;
+	box-sizing: border-box;
+	height: 1px;
+	color: red;
+	background-image: linear-gradient(90deg,rgba(0, 0,0, 0), rgba(0, 0,0, 0.75), rgba(0, 0,0, 0));
+}
