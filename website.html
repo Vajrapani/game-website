@@ -4,9 +4,23 @@
 	<meta charset="UTF-8"/>
 	<title>Incursion</title>
 	<link href = "https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" rel = stylesheet>
-	<link href = "css/website.css" rel = stylesheet>
-	
-	<link href = "jswebsite.js" rel = stylesheet>
+	<link href = "css/home.css" rel = stylesheet>
+	<link href = "css/navbar.css" rel = stylesheet>
+	<script src="https://code.jquery.com/jquery-3.2.1.js"></script>
+<script src="https://d3js.org/d3.v4.min.js"></script>
+
+	<script type="text/javascript">
+		$(window).on('scroll', function() {
+			if($(window).scrollTop()) {
+				$('nav').addClass('black');
+			}
+			else {
+				$('nav').removeClass('black');
+			}
+		})
+	</script>
+
+
 		</head>
 
 		<body>
@@ -15,31 +29,50 @@
   			<header>
   				
   				<nav>
-  					<div class = "topnav" id ='nav'>
+  					<div class = "topnav">Incursion</div>
   						<ul>
-  							<li><a href="#home">Home</a></li>
-							<li><a href="#about">About</a></li>
-  							<li><a href="#news">News</a></li>
-  							<li><a href="#help">Help</a></li>
-  							<li><a href="#map">Map</a></li>
+  							<li><a href="website.html">Home</a></li>
+							<li><a href="about.html">About</a></li>
+  							<li><a href="news.html">News</a></li>
+  							<li><a href="help.html">Help</a></li>
+  							<li><a href="map.html">Map</a></li>
  						</ul> 				
-  					</div>
   				</nav>
 			</header>
-			
+			<div class= "line1">
+				<hr >
+			</div>
 
+			<div class = "video">
+				<video poster ="incursionlogo.jpg" controls>
+					<source src="incursion.mp4" type="video/mp4">
+					</video>
+				
+			</div>
+			<div class = "line2">
+			<hr>
+			</div>
 			<main>
 				
 				<section>
 					<div class="updates">
-					<h1>Updates</h1>
-					<ul>
+						<h1>Updates</h1>
+						<ul>
 						<li> Update 1...</li>
 					</ul>
 				</div>
+				
 				</section>
 			
 			</main>
+
+			<footer> 
+				<p>Team 9<br>
+					
+				</p>
+			</footer>
+
+
 
 		</body>
 
