@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Special+Elite&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+video {
+  display: block;
+  margin: auto;
+  margin-top: 60px;
+  margin-bottom: 30px;
+}
+.line1 hr {
+	height:3px;
+	margin-top: 100px;
+	border-width: 0;
+	color: gray;
+	background-color: #666699;
+	width:50%
+
+}
+.line2 hr{
+	height:3px;
+	margin-top: 0px;
+	border-width: 0;
+	color: gray;
+	background-color: #666699;
+	width:50%
+}
+.release{
+	padding-top: 100px;
+	margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    display: flex;
+ 	margin: auto;
+ 	justify-content: center;
+}
+.release h1{
+	font-family:"Special Elite";
+	font-variant-caps: all-small-caps;
+	font-size: 72px;
+	margin-bottom:2px;
+}
+.release p{
+	font-family: "Special Elite";
+	font-size: 32px;
+	margin-top:100px;
+}
+
+#trailer{
+	font-size: 36px;
+	font-family: "Shadows Into Light"; 
+	font-variant-caps: small-caps;
+	font-weight: bold; 
+	padding-bottom:30px;
+	margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    display: flex;
+ 	margin: auto;
+ 	justify-content: center;
+}
